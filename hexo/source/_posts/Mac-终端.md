@@ -1,15 +1,16 @@
 ---
 title: Mac_终端改造
 date: 2016-10-09 15:26:49
-tags:
+tags: [Mac,终端]
 ---
 
 **一：终端切换bash **
 	 所需材料：
-  1. Solarized Dark，配色方案大集合，下载后找到iTerm的配色方案双击安装；
+  1. Solarized Dark，配色方案大集合，下载后找到osx-terminal.app-colors-solarized的配色方案双击安装；
   2. oh-my-zsh，前面所说的Z shell的现成配置方案，方便你管理自己的zsh，可使用curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh进行安装；
   3. Menlo-Powerline or Monaco-Powerline，两种字体补丁任选其一下载安装即可，不安装会有乱码.
 	注：
+	<!-- more-->
 1.调整选中时颜色为明黄色，
 2.安装好oh my zsh后，在~/.zshrc中添加如下内容，能让你用的更愉快，
 * ZSH_THEME="agnoster"  #使用 agnoster 主题，很好很强大
