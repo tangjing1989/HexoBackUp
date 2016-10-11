@@ -50,3 +50,11 @@ deploy:
  type: git
  repository: https://github.com/tangjing1989/tangjing1989.github.io.git
  branch: master
+
+ # Admin
+admin:
+    name: hexo
+    password: hexo
+    secret: hey hexo
+    expire: 60*1
+    # cors: http://localhost:3000
